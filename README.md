@@ -32,7 +32,7 @@ The dataset consists of multiple relational tables simulating a bus management s
 ## Normalization
 
 ### Unnormalized Form (UNF)
-**Passenger**  
+- **Passenger**  
 (Passenger_id, Name, Contact, Email, Gender, Date of Birth, Luggage Requirement,  
 {Trip_id, Departure_time, Arrival_time, Trip_status, Schedule_update},  
 {Route_id, City, Destination, Distance, Bus_id, Bus_number, Capacity, Status, Bus_type, Last_maintenance_date, Booking_id, Date, Status, Class, Staff_id, Name, Role, Number, Status, Booking_id, Date, Status, Class, Ticket_id, Price, Issue_date, Ticket_status, Payment_id, Amount, Payment_date, Payment_method, Payment_status})
