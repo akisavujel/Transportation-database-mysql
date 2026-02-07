@@ -8,7 +8,7 @@ The Transportation Management System is a database-driven application for managi
 - Schedule trips and assign buses and staff to optimize operations
 - Track payments, revenue, and passenger activity for accurate reporting and analysis
 - Provide insights and support decision-making to improve overall transportation management
-- 
+
 ## Technologies Used
 
 - **MySQL** – For database creation, data storage, and management  
