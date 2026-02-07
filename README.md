@@ -32,7 +32,7 @@ The dataset consists of multiple relational tables simulating a bus management s
 {Trip_id, Departure_time, Arrival_time, Trip_status, Schedule_update},
 { Route_id, City, Destination, Distance, Bus_id, Bus_number, Capacity, Status, Bus_type, Last_maintenance_date, Booking_id, Date, Status, Class Staff_id, Name, Role, Number, Status, Booking_id, Date, Status, Class Ticket_id, Price, Issue_date, Ticket_status, Payment_id, Amount, Payment_date, Payment_method, Payment_status })
 
--1NF
+- 1NF
 **Passenger-1** ( Passenger_id, Name, Contact, Email, Gender, Date of Birth, Luggage Requirement )
 **Trip_passenger-1** (tripid, passengerid* , Departure_time, Arrival_time, Trip_status, Schedule_update)
 **Route_passenger-1** ( Route_id, passenger_id *,City, Destination, Distance, bus_id,
@@ -41,7 +41,7 @@ Status, Class, staff_id, Name, Role, Number, Status, Booking_id, Date, Status, C
 ticket_id, Price, Issue_date, Ticket_status, payment_id, Amount, Payment_date,
 Payment_method, Payment_status)
 
--2NF
+- 2NF
 **Passenger-2** ( Passenger_id, Name, Contact, Email, Gender, Date of Birth, Luggage Requirement )
 **Trip_passenger-2** (trip_passenger_id, tripid*, passengerid*)
 **Trip-2** (Trip_id, Departure_time, Arrival_time, Trip_status, Schedule_update)
@@ -51,7 +51,7 @@ Status,Bus_type, Last_maintenance_date, booking_id, Date, Status, Class, staff_i
 Name, Role, Number, Status, ticket_id, Price, Issue_date, Ticket_status, payment_id,
 Amount, Payment_date, Payment_method, Payment_status )
 
--3NF
+- 3NF
 **Passenger** ( Passenger_id, Name, Contact, Email, Gender, Date of Birth, Luggage Requirement )
 **Trip_passenger** (trip_passenger_id, tripid*, passengerid*)
 **Trip** (Trip_id, Departure_time, Arrival_time, Trip_status, Schedule_update)
